@@ -1,17 +1,13 @@
-melonJS boilerplate
--------------------------------------------------------------------------------
+# Crypto Castle
 
-features :
-- video autoscaling
-- mobile optimized HTML/CSS
-- swiping disabled on iOS devices
-- debug Panel (if #debug)
-- default icons
-- distribution build
-- standalone build for desktop operating systems
-- optional ES5 shim for non ES5 compliant browser (see index.html)
+The Avast challenge theme of security at Hack Cambridge 101 inspired us to come up with an addictive browser-based platformer game which teaches people about the different encryption algorithms that keep them safe whilst browsing the web!
 
-## To run distribution
+We used MelonJS as a framework to make the game in Javascript. Tiled was used make the maps, GIMP to make some of the sprites, and open source sprites/music/sound effects to add the finishing touches. Check out our [Devpost](https://devpost.com/software/crypto-castle) for more info!
+
+![image](screenshot.jpg)
+
+
+## Play the game
 
 To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
 
@@ -31,7 +27,7 @@ Running the game:
 
 And you will have the boilerplate example running on http://localhost:8000
 
-## Building Release Versions
+## Building a release version
 
 To build:
 
@@ -60,5 +56,6 @@ Running the desktop release on Linux:
 Note that you may have to edit the file `Gruntfile.js` if you need to better dictate the order your files load in. Note how by default the game.js and resources.js are specified in a specific order.
 
 -------------------------------------------------------------------------------
+MelonJS
 Copyright (C) 2011 - 2017 Olivier Biot
 melonJS is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
